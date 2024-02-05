@@ -1213,7 +1213,6 @@ img {
     justify-content: center;
     display: flex;
     flex-wrap: nowrap;
-    gap: 0px;
   }
 
   .footer-logo-block {
