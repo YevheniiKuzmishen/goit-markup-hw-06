@@ -749,8 +749,9 @@ img {
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 408px;
-  min-height: 584px;
+  width: 288px;
+  /* min-height: 584px; */
+  min-height: 623px;
   transform: translate(-50%, -50%) scale(1);
   background-color: #fcfcfc;
   border-radius: 4px;
@@ -1103,6 +1104,7 @@ img {
 
   .modal {
     width: 408px;
+    min-height: 584px;
   }
 }
 
@@ -1207,6 +1209,8 @@ img {
   }
 
   .footer-info {
+    max-width: none;
+    justify-content: center;
     display: flex;
     flex-wrap: nowrap;
     gap: 0px;
