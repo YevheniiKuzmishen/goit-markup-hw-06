@@ -545,18 +545,23 @@ img {
 }
 
 .basement {
-  min-width: 1158px;
+  /* min-width: 1158px; */
   background: #2e2f42;
-  padding: 100px 0;
+  padding: 96px 0;
+  /* padding: 100px 0; */
 }
 
 .footer-info {
   display: flex;
-  align-items: baseline;
+  gap: 72px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-logo-block {
-  margin-right: 120px;
+  /* text-align: center; */
+  /* margin-right: 120px; */
 }
 
 .footer-soc-title {
@@ -566,10 +571,12 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   margin-bottom: 16px;
+  text-align: center;
 }
 
 .footer-soc-list {
   display: flex;
+  justify-content: center;
   gap: 16px;
 }
 
@@ -598,6 +605,94 @@ img {
   fill: #f4f4fd;
 }
 
+.footer-input-title {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  text-align: center;
+}
+
+.footer-form {
+  /* display: flex;
+  gap: 24px; */
+}
+
+.footer-input {
+  display: block;
+  margin: auto;
+  width: 264px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  padding-left: 16px;
+  outline: transparent;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  /* margin-right: 20px; */
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.footer-soc-block {
+  width: 208px;
+  height: 80px;
+  /* text-align: center; */
+  /* margin-right: 80px; */
+}
+
+.footer-input::placeholder {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 2;
+  letter-spacing: 0.04em;
+}
+
+.footer-input:focus {
+  border-color: #4d5ae5;
+}
+
+.footer-form-btn {
+  display: flex;
+  min-width: 165px;
+  height: 40px;
+  font-family: "Roboto", sans-serif;
+  padding: 8px 24px;
+  justify-content: center;
+  align-items: center;
+  /* display: block; */
+  margin: 0 auto;
+  /* gap: 16px; */
+  border-radius: 4px;
+  background-color: #4d5ae5;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border: none;
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-form-btn:hover,
+.footer-form-btn:focus {
+  background-color: #404bbf;
+}
+
+.footer-btn-icon {
+  margin-left: 16px;
+  fill: #ffffff;
+}
+
 .basement-logo {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
@@ -606,8 +701,10 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  display: inline-block;
-  margin-bottom: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
 }
 
 .basement-logo-cloud {
@@ -624,6 +721,8 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   max-width: 264px;
+  margin-top: 16px;
+  /* text-align: left; */
 }
 
 .backdrop {
@@ -833,85 +932,6 @@ img {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
-}
-
-.footer-input-title {
-  margin-bottom: 16px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #ffffff;
-}
-
-.footer-form {
-  display: flex;
-  gap: 24px;
-}
-
-.footer-input {
-  width: 264px;
-  height: 40px;
-  border-radius: 4px;
-  border: 1px solid #ffffff;
-  background-color: transparent;
-  padding-left: 16px;
-  outline: transparent;
-  transition: olor 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  margin-right: 20px;
-  font-size: 12px;
-  line-height: 2;
-  letter-spacing: 0.04em;
-  padding-left: 16px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  color: #ffffff;
-}
-
-.footer-soc-block {
-  margin-right: 80px;
-}
-
-.footer-input::placeholder {
-  color: #ffffff;
-  font-size: 12px;
-  font-weight: 400;
-  line-height: 2;
-  letter-spacing: 0.04em;
-}
-
-.footer-input:focus {
-  border-color: #4d5ae5;
-}
-
-.footer-form-btn {
-  display: flex;
-  min-width: 165px;
-  height: 40px;
-  font-family: "Roboto", sans-serif;
-  padding: 8px 24px;
-  justify-content: center;
-  align-items: center;
-  gap: 16px;
-  border-radius: 4px;
-  background-color: #4d5ae5;
-  color: #ffffff;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  border: none;
-  cursor: pointer;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.footer-form-btn:hover,
-.footer-form-btn:focus {
-  background-color: #404bbf;
-}
-
-.footer-btn-icon {
-  margin-left: 16px;
-  fill: #ffffff;
 }
 
 /* TABLET */
