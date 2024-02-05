@@ -1066,6 +1066,44 @@ img {
     width: calc((100% - 24px) / 2);
     margin-bottom: 72px;
   }
+
+  .footer-info {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 72px 24px;
+    max-width: 530px;
+    justify-content: flex-start;
+    align-items: baseline;
+  }
+
+  .basement-logo {
+    justify-content: left;
+  }
+
+  .footer-soc-title {
+    text-align: left;
+  }
+
+  .footer-form {
+    display: flex;
+    align-items: baseline;
+  }
+
+  .footer-input {
+    margin-bottom: 0;
+  }
+
+  .footer-form-btn {
+    margin-left: 24px;
+  }
+
+  .footer-input-title {
+    text-align: left;
+  }
+
+  .modal {
+    width: 408px;
+  }
 }
 
 /* ---------DESKTOP---------- */
@@ -1162,5 +1200,34 @@ img {
 
   .princeples-item-text {
     font-weight: 400;
+  }
+
+  .basement {
+    width: 100%;
+  }
+
+  .footer-info {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 0px;
+  }
+
+  .footer-logo-block {
+    min-width: 264px;
+    margin-right: 120px;
+  }
+
+  .footer-soc-block {
+    width: 208px;
+    margin-right: 80px;
+  }
+
+  .footer-input-block {
+    /* width: 456px; */
+  }
+
+  .footer-form {
+    justify-content: center;
+    align-items: center;
   }
 }
